@@ -1,0 +1,32 @@
+{
+  "ready": "{{botName}} hazır!",
+  "errors": {
+    "unknown": "Bilinmeyen bir hata oluştu.",
+    "missing_permissions": "Eksik yetkiler: {{permissions}}",
+    "rate_limited": "Rate limit aşıldı. {{retryAfter}}ms sonra tekrar deneyin.",
+    "not_found": "{{resource}} bulunamadı.",
+    "invalid_token": "Geçersiz bot token'ı sağlandı.",
+    "ws_connection_failed": "WebSocket bağlantısı başarısız oldu.",
+    "ws_disconnected": "WebSocket bağlantısı kesildi."
+  },
+  "cache": {
+    "adapter_loaded": "Cache adaptörü yüklendi: {{adapter}}",
+    "cleared": "Cache temizlendi."
+  },
+  "plugins": {
+    "loaded": "Plugin yüklendi: {{name}} v{{version}}",
+    "unloaded": "Plugin kaldırıldı: {{name}}",
+    "error": "Plugin hatası '{{name}}': {{error}}"
+  },
+  "rest": {
+    "request": "{{method}} {{endpoint}}",
+    "rate_limit": "Rate limit aşıldı: {{route}}. {{retryAfter}}ms sonra tekrar denenecek."
+  },
+  "gateway": {
+    "connecting": "Gateway'e bağlanılıyor...",
+    "connected": "Gateway'e bağlanıldı.",
+    "reconnecting": "Yeniden bağlanılıyor... Deneme {{attempt}}/{{max}}",
+    "disconnected": "Gateway bağlantısı kesildi.",
+    "heartbeat": "Heartbeat ACK. Ping: {{ping}}ms."
+  }
+}

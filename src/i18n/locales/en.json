@@ -1,0 +1,32 @@
+{
+  "ready": "{{botName}} is ready!",
+  "errors": {
+    "unknown": "An unknown error occurred.",
+    "missing_permissions": "Missing permissions: {{permissions}}",
+    "rate_limited": "Rate limited. Retry after {{retryAfter}}ms.",
+    "not_found": "{{resource}} not found.",
+    "invalid_token": "Invalid bot token provided.",
+    "ws_connection_failed": "WebSocket connection failed.",
+    "ws_disconnected": "WebSocket disconnected."
+  },
+  "cache": {
+    "adapter_loaded": "Cache adapter loaded: {{adapter}}",
+    "cleared": "Cache cleared."
+  },
+  "plugins": {
+    "loaded": "Plugin loaded: {{name}} v{{version}}",
+    "unloaded": "Plugin unloaded: {{name}}",
+    "error": "Plugin error '{{name}}': {{error}}"
+  },
+  "rest": {
+    "request": "{{method}} {{endpoint}}",
+    "rate_limit": "Rate limited on {{route}}. Retry after: {{retryAfter}}ms."
+  },
+  "gateway": {
+    "connecting": "Connecting to Gateway...",
+    "connected": "Connected to Gateway.",
+    "reconnecting": "Reconnecting... Attempt {{attempt}}/{{max}}",
+    "disconnected": "Disconnected from Gateway.",
+    "heartbeat": "Heartbeat ACK. Ping: {{ping}}ms."
+  }
+}
