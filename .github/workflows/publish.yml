@@ -21,3 +21,12 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      # Başarılı olduğunda Discord Webhook'a mesaj atar
+      - name: Discord Notification
+        if: success()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: '🚀 **Lumis Framework** paketi başarıyla güncellendi! Yeni sürümü indirebilirsiniz.'
