@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "string", "format": "uuid" },
+    "username": { "type": "string", "format": "username" },
+    "email": { "type": "string", "format": "email" },
+    "createdAt": { "type": "string", "format": "date" },
+    "isActive": { "type": "boolean" },
+    "score": { "type": "number", "minimum": 0, "maximum": 100 }
+  },
+  "required": ["id", "username", "email"]
+}

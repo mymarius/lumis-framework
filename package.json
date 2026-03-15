@@ -1,0 +1,63 @@
+{
+  "name": "lumis-framework",
+  "version": "1.2.3",
+  "description": "Next generation Discord API framework — middleware pipeline, guards, hot-reload, built-in dashboard, DI container, event interceptors, testing framework, CLI, and built-in schema-based mock data generator.",
+  "main": "index.js",
+  "bin": {
+    "lumis": "bin/lumis.js",
+    "lumis-datagen": "bin/datagen.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "api",
+    "lumis",
+    "discord-bot",
+    "gateway",
+    "websocket",
+    "middleware",
+    "guards",
+    "hot-reload",
+    "dashboard",
+    "dependency-injection",
+    "testing",
+    "cli",
+    "framework"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "undici": "^6.6.0",
+    "ws": "^8.16.0",
+    "@discordjs/voice": "^0.14.0",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5",
+    "@faker-js/faker": "^8.0.0",
+    "seedrandom": "^3.0.0"
+  },
+  "peerDependencies": {
+    "better-sqlite3": "^11.0.0",
+    "ioredis": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "ioredis": {
+      "optional": true
+    },
+    "better-sqlite3": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

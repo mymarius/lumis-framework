@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # NPM (Node.js) paketleri için otomatik güncelleme kontrolleri
+  - package-ecosystem: "npm"
+    directory: "/" # package.json dosyasının bulunduğu ana dizin
+    schedule:
+      interval: "weekly" # Güncellemeleri her hafta kontrol eder
+    commit-message:
+      prefix: "chore"
+      include: "scope"
