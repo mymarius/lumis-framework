@@ -619,4 +619,4 @@ lumis-framework/
 📝 **License:** MIT
 👨‍💻 **Developed by:** Lumis-Framework Team
 💬 **Discord:** [Our Server](https://discord.gg/32xTVz9yN3)
-💬 **Github:** [Github Adress](https://github.com/mymarius)
+💬 **Github:** [Lumis Framework](https://github.com/mymarius/lumis-framework)
